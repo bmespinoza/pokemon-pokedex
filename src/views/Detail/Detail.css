@@ -1,0 +1,60 @@
+.Label-container{
+    background-color: blue;
+    padding-top: 2%;
+    padding-bottom: 2%;;
+}
+.Title-label{
+    font-size: 225%;
+    text-transform: capitalize;
+    font-family: 'Asap Condensed', arial, sans-serif;
+    display: inline;
+    background-color: aqua;
+    margin-right: 1%;
+}
+.Label-id{
+    font-size: 225%;
+    font-family: 'Asap Condensed', arial, sans-serif;
+    color: #616161;
+    display: inline;
+    background-color: aquamarine;
+    margin-left: 1%;
+}
+.Pokemon-container{
+    width: 80%;
+    background-color: red;
+    text-align: center;
+    margin: auto;
+}
+.Container{
+    align-items: center;
+    background-color: #ffffff;
+    background-image: url("../../../public/container_bg.png");
+}
+.Pokemon-image{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 1%;
+}
+.Pokemon-details{
+    background-color: yellow;
+    margin-left: 1%;
+}
+.Pokemon-body{
+    background-color: green;
+    display: inline-flex;
+}
+.Pokemon-stats{
+    display: block;
+    background-color: aquamarine;
+    margin-right: 1%;
+}
+td {
+    border: 1px solid black;
+    padding: 1%;
+}
+table {
+    width: 100%;
+    empty-cells: show;
+}

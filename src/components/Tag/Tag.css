@@ -1,0 +1,11 @@
+.Tag{
+    background-color: yellow;
+    margin-right: 5%;
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-family: 'Asap Condensed', arial, sans-serif;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}

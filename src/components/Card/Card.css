@@ -1,0 +1,35 @@
+.Poke-card{
+    padding-bottom: 5%;
+    /* transition: ease-in-out 0.2s; */
+    animation-duration: 0.2s;
+}
+.Poke-card:hover{
+    /* transform: translate(0, -px); */
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+.Image-card{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    margin-top: 2%;
+    text-align: center;
+    align-items: center;
+}
+.Id-label{
+    color: #919191;
+    font-size: 80%;
+    font-family: 'Asap Condensed', arial, sans-serif;
+    margin: 2% 0%;
+}
+.Name-label{
+    color: #313131;
+    font-size: 145%; 
+    text-transform: capitalize;
+    font-family: 'Asap Condensed', arial, sans-serif;
+    margin-bottom: 2%;
+}

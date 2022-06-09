@@ -1,0 +1,18 @@
+.Load-more{
+    background-color: #30a7d7;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 42%;
+    margin-right: 42%;
+    padding: 1%;
+    border-width: 0px;
+    margin-bottom: 5%;
+    cursor: pointer;
+    font-size: 100%;
+    font-family: 'Asap Condensed', arial, sans-serif;
+}
+.Load-more:hover{
+    background-color: #1b82b1;
+}
