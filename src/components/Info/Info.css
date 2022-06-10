@@ -1,0 +1,43 @@
+.Info-container{
+    background-color: #30a7d7;
+    color: #fff;
+    margin-left: 1%;
+    border-radius: 10px;
+    display: inline-flex;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 100%;
+}
+.Left-column{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: 'Asap Condensed', arial, sans-serif;
+    font-size: 100%;
+}
+.Right-column{
+    text-align: right;
+    margin-left: 30%;
+    font-family: 'Asap Condensed', arial, sans-serif;
+    font-size: 100%;
+    text-align: left;
+    margin-top: 5%;
+}
+.Value-label{
+    font-size: 125%;
+    font-family: 'Asap Condensed', arial, sans-serif;
+    color: #212121;
+    margin-top: 10%;
+    margin-bottom: 25%;
+    text-transform: capitalize;
+    text-align: left;
+}
+.Ability-label{
+    font-size: 125%;
+    font-family: 'Asap Condensed', arial, sans-serif;
+    color: #212121;
+    margin-top: 10%;
+    text-transform: capitalize;
+    text-align: left;
+}

@@ -30,7 +30,7 @@ const Card = ({pokemon}: CardProps) => {
             </div>
             <div className='Tag-container'>
                 {pokemon.types.map((t: type, index: number) => {
-                    return <Tag key={index} props={t.type.name}/>
+                    return <Tag key={index} tag={t.type.name}/>
                 })}
             </div>
         </div>

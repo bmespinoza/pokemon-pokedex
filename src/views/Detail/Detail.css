@@ -1,5 +1,5 @@
 .Label-container{
-    background-color: blue;
+    background-color: #fff;
     padding-top: 2%;
     padding-bottom: 2%;;
 }
@@ -8,7 +8,6 @@
     text-transform: capitalize;
     font-family: 'Asap Condensed', arial, sans-serif;
     display: inline;
-    background-color: aqua;
     margin-right: 1%;
 }
 .Label-id{
@@ -16,12 +15,11 @@
     font-family: 'Asap Condensed', arial, sans-serif;
     color: #616161;
     display: inline;
-    background-color: aquamarine;
     margin-left: 1%;
 }
 .Pokemon-container{
     width: 80%;
-    background-color: red;
+    background-color: #fff;
     text-align: center;
     margin: auto;
 }
@@ -42,19 +40,43 @@
     margin-left: 1%;
 }
 .Pokemon-body{
-    background-color: green;
+    
     display: inline-flex;
 }
 .Pokemon-stats{
     display: block;
-    background-color: aquamarine;
+    background-color: #a4a4a4;
     margin-right: 1%;
+    border-radius: 10px;
+    padding: 5%;
+    padding-top: 2%;
+    color: #212121;
+    text-align: left;
+    margin-top: 2%;
 }
 td {
-    border: 1px solid black;
+    border-style: none;
     padding: 1%;
+    width: 12%;
 }
 table {
     width: 100%;
     empty-cells: show;
+    border-spacing: 3px;
+}
+.Stat-label{
+    padding-bottom: 5%;
+    color: #212121;
+    text-align: left;
+    font-family: 'Asap Condensed', arial, sans-serif;
+    font-size: 100%;
+}
+.Stat-name{
+    border-style: none;
+    font-size: 75%; 
+    overflow-wrap: break-word; 
+    vertical-align: top; 
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
 }

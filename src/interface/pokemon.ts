@@ -28,13 +28,13 @@ export interface pokemon {
     weight: number;
 }
 
-interface ability {
+export interface ability {
     ability: {
         name: string;
         url: string;
-        is_hidden: boolean;
-        slot: number
     }
+    is_hidden: boolean;
+    slot: number;
 }
 
 interface form {
@@ -110,7 +110,7 @@ interface Sprite {
     front_shiny_female: string | null;
 }
 
-interface stat {
+export interface stat {
     base_stat: number;
     effort: number;
     stat: {

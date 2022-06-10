@@ -1,11 +1,15 @@
 import { getTagColors } from '../../utils/TagColors';
 import './Tag.css';
 
-const Tag = ({props}: any) => {
-    const colors = getTagColors(props)
+interface TagProps {
+  tag: string;
+}
+
+const Tag = ({tag}: TagProps) => {
+    const colors = getTagColors(tag)
   return (
     <div className="Tag" style={{background: colors.background, color: colors.text}}>
-        {props}
+        {tag}
     </div>
   );
 }
