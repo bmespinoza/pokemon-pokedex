@@ -12,6 +12,7 @@ const Detail = () => {
   const params = useParams()
   const [pokemon, setPokemon] = useState<pokemon|undefined>(undefined)
   const { data, isLoaded, error } = usePokemonDetail(params.name)
+  if (params.name) document.title = params.name
   
   useEffect(()=> {
     if(data) setPokemon(data)
